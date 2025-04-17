@@ -7,7 +7,7 @@
     <title>Booki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,13 +15,51 @@
 </head>
 
 <body>
+    <nav>
+        <img src="./images/logo/Booki.png" alt="Logo Booki">
+        
+        <ul>
+            <li><a href="#hebergements">Hébergements</a></li>
+            <li><a href="#activity">Activités</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre-ville ou en pleine nature</p>
+        <div>
+            <form>
+                <p class="border-search flex-center">
+                    <label class="icon-size flex-center back-gray" for="city-place"><i class="fa-solid fa-location-dot" style="color: black;"></i></label>
+                    <input class="search-bar flex-center" type="search" name="city-place" id="city-place" placeholder="Marseille, France"/>
+                    <input class="research-button flex-center" type="button" value="Rechercher">
+                </p>
+            </form>
+        </div>
+
+        <div class="flex-center">
+            <h2>Filtres</h2>
+            <button><i class="fa-solid fa-money-bill-wave" style="color: #0065FC;"></i>Economique</button>
+            <button><i class="fa-solid fa-person" style="color: #0065FC;"></i>Familial</button>
+            <button><i class="fa-solid fa-heart" style="color: #0065FC;"></i>Romantique</button>
+            <button><i class="fa-solid fa-fire" style="color: #0065FC;"></i>Nos pépites</button>
+        </div>
+
+        <div class="flex-center">
+            <i class="fa-solid fa-info" style="color: #0065FC;"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+    </header>
+    
+
+
     <div class="main-container">
-        <header></header>
         <main>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
-
+                
+                <section id="hebergements" class="hebergements">
                 </section>
+
                 <section class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
@@ -88,7 +126,12 @@
                     </div>
                 </section>
             </div>
+
+            <section id="activity" class="activity">
+            </section>
+
         </main>
+
         <footer></footer>
     </div>
 </body>
