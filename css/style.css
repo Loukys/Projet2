@@ -333,19 +333,21 @@ header p {
 /******************** Acticities ********************/
 
 .activities {
-    width: 100%;    
-    padding: 30px 0px;
+    width: 100% auto;    
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 60px;
 }
 
 .activities-title {
-    display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .activities-cards {
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .activities-cards .card {
@@ -368,9 +370,30 @@ header p {
 /******************** Acticities ********************/
 
 footer {
-    width: 100%;    
-    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    max-width: 1340px;
+    max-height: 163px;
 }
+
+.footer-card {
+    width: 446px;
+}
+
+footer h2 {
+    margin: 15px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin: 15px;
+}
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
