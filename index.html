@@ -33,16 +33,21 @@
             <p class="header-search">
                 <label class="icon-map flex-center back-gray" for="city-place"><i class="fa-solid fa-location-dot" style="color: black;"></i></label>
                 <input class="search-bar flex-center" type="search" name="city-place" id="city-place" placeholder="Marseille, France"/>
-                <input class="research-button flex-center" type="button" value="Rechercher">
+                <button class="research-button flex-center">
+                    <span class="research-icon"><i class="fa-sharp fa-solid fa-magnifying-glass" style="color: #fff;"></i></span>
+                    <span class="research-text">Rechercher</span>
+                </button>   
             </p>
         </form>   
         
         <div class="header-filter">
             <h2>Filtres</h2>
-            <button class="filter-button"><i class="fa-solid fa-money-bill-wave filter-icon" style="color: #0065FC;"></i>Économique</button>
-            <button class="filter-button"><i class="fa-solid fa-person filter-icon" style="color: #0065FC;"></i>Familial</button>
-            <button class="filter-button"><i class="fa-solid fa-heart filter-icon" style="color: #0065FC;"></i>Romantique</button>
-            <button class="filter-button"><i class="fa-solid fa-fire filter-icon" style="color: #0065FC;"></i>Nos pépites</button>
+            <div class="button-box">
+                <button class="filter-button"><i class="fa-solid fa-money-bill-wave filter-icon" style="color: #0065FC;"></i>Économique</button>
+                <button class="filter-button"><i class="fa-solid fa-person filter-icon" style="color: #0065FC;"></i>Familial</button>
+                <button class="filter-button"><i class="fa-solid fa-heart filter-icon" style="color: #0065FC;"></i>Romantique</button>
+                <button class="filter-button"><i class="fa-solid fa-fire filter-icon" style="color: #0065FC;"></i>Nos pépites</button>
+            </div>    
         </div>
 
         <div class="header-info">
@@ -170,7 +175,7 @@
                     </a>  
                 </section>
 
-                <section class="populaires">
+                <section id="populaires" class="populaires">
                     <div class="populaires-title">
                         <h1>Les plus populaires</h1>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
