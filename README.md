@@ -2,6 +2,6 @@
 
 Bonjour et bienvenue sur le projet BOOKI !
 
-Vous trouverez ici les élements composants le site de l'entreprise BOOKI en plein développement !
+Vous trouverez ici les éléments qui composent le site de l’entreprise BOOKI, actuellement en pleine phase de développement.
 
-Alors allons-y Alonso !
+Alors, allons-y Alonso !
