@@ -34,19 +34,19 @@ a {
     text-decoration: none;
 }
 
-h1 {
+h2 {
     font-weight: 700;
     font-size: 22px;
     margin: 0;
 }
 
-h2 {
+h3 {
     font-weight: 700;
     font-size: 18px;
     margin: 0;
 }
 
-h3 {
+h4 {
     font-weight: 700;
     font-size: 16px;
     margin: 0;
@@ -293,7 +293,7 @@ header p {
     margin: 0;
 }
 
-.hebergements-more h2 {
+.hebergements-more h3 {
     margin-top: 33px;
 }
 
@@ -406,7 +406,7 @@ footer {
     background-color: var(--main-bg-color);
 }
 
-footer h2 {
+footer h3 {
     margin: 15px 20px 15px 20px;
 }
 
@@ -700,7 +700,7 @@ footer li {
         max-height: 130px;
     }
 
-    .hebergements-more h2 {
+    .hebergements-more h3 {
         margin-top: 20px;
     }
 
