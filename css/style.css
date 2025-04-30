@@ -134,7 +134,8 @@ header p {
     justify-self: left;
     margin: 0;
     border: 1px solid var(--main-bg-color);
-    border-radius: 15px;
+    border-radius: 15px;    
+    max-width: 377px;
 }
 
 .flex-center {
